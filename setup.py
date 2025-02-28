@@ -14,6 +14,6 @@ setup(
     description="A Python Library used for network port scanning. Choose between single scanning and multi scanning.",  # Short description
     long_description=open('README.md').read(),  # Detailed description from README
     long_description_content_type="text/markdown",  # Type of long description
-    url="https://github.com/yourusername/pipscan",  # URL of your GitHub repo or website
+    url="https://github.com/YBDeve/PipScan",  # URL of your GitHub repo or website
     license="MIT",  # License
 )
