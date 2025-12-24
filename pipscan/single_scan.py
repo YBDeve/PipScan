@@ -11,7 +11,7 @@ def single_scan(ip, port):
         service = socket.getservbyport(port, "tcp") if port <= 49151 else "Unknown"
         print(f"[+] Port {port} is OPEN ({service})\n")
 
-        # Banner grabbing
+        
         try:
             s.send(b"Hello\r\n")
             banner = s.recv(1024).decode().strip()
@@ -25,3 +25,4 @@ def single_scan(ip, port):
 
     finally:
         s.close()
+
